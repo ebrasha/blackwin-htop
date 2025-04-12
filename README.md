@@ -44,7 +44,7 @@ Bring htop to Windows – a Rust-based system monitor for developers and power u
 2. Clone and build:
    ```bash
    git clone https://github.com/ebrasha/blackwin-htop.git
-   cd BlackWin/BlackWin\ htop
+   cd blackwin-htop
    cargo build --release
    ```
 3. Run:

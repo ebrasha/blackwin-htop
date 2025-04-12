@@ -47,7 +47,7 @@ BlackWin htop یک ابزار پایشگر سیستم با طراحی گرافی
 2. کلون و ساخت:
    ```bash
    git clone https://github.com/ebrasha/blackwin-htop.git
-   cd BlackWin/BlackWin\ htop
+   cd blackwin-htop
    cargo build --release
    ```
 3. اجرا:
