@@ -1,0 +1,22 @@
+[package]
+name = "blackwin-htop"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ebrahim Shafiei <Prof.Shafiei@Gmail.com>"]
+description = "Cyberpunk-style htop-like system monitor for Windows and Linux, written in Rust"
+keywords = ["htop", "rust", "system-monitor", "windows", "linux"]
+categories = ["command-line-utilities", "memory-management","memory-management"]
+repository = "https://github.com/ebrasha/blackwin-htop"
+license = "GPL-2.0"
+readme = "README.md"
+
+
+[dependencies]
+anyhow = "1.0"
+crossterm = "0.27"
+ratatui = "0.26"
+signal-hook = { version = "0.3", features = ["iterator"] }
+sysinfo = { version = "0.30", features = ["serde"] }
+tokio = { version = "1.36", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
